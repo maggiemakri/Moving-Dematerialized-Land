@@ -28,9 +28,8 @@
         <h1>Schubert & Radio FM at 19:20</h1>
 		<div class="content">
 		    <audio controls>
-                <source src="file:///C:/Users/maggi/OneDrive/Υπολογιστής/Road%20Landscape/Shubert%20&%20Ράδιο%20Fm.mp3.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+                <source src="Shubert & Ράδιο Fm.mp3">
+               </audio>
         </div>
         <p>
             A man shouting !warning! - the melodies of Schubert getting scratched on a vinyl</p>
