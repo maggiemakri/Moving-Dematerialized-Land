@@ -82,3 +82,24 @@
 </div>
 
 <hr>
+
+<script>
+    // JavaScript function to change the image
+    function changeImage(step) {
+        const images = [
+            "roadlandscape1.jpg",
+            "roadlandscape.jpg", // Replace with actual path to second image
+             ];
+        const artwork = document.getElementById('artwork');
+        let currentIndex = images.indexOf(artwork.src);
+        
+        // Calculate the next index
+        let nextIndex = (currentIndex + step + images.length) % images.length;
+        
+        // Set the src attribute of the image to the new image path
+        artwork.src = images[nextIndex];
+    }
+</script>
+
+</body>
+</html>
