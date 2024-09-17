@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Road Landscape</title>
+<style>
+    body {
+        font-family: 'BPtypewrite', Arial, sans-serif; /* Specify fallback fonts */
+        background-color: #857b71;
+        color: #000000;
+        text-align: center; /* Center-align content */
+    }
+    h2, h4, p {
+        font-family: 'BPtypewrite', Arial, sans-serif; /* Specify fallback fonts */
+    }
+    h2 {
+        color: #ffffff;
+        margin-top: 20px; /* Add space above h2 */
+    }
+    h4 {
+        color: #ffb38a;
+    }
+    .container {
+        position: relative; /* Relative positioning for arrow buttons */
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center-align flex items horizontally */
+        align-items: center; /* Center-align flex items vertically */
+        margin-top: 20px; /* Add space above the container */
+    }
+    .art-description {
+        max-width: 50%; /* Limit text width */
+        margin-left: 20px; /* Add space between image and text */
+        text-align: justify; /* Justify-align the text */
+    }
+    img {
+        max-width: 35%; /* Limit image width */
+        margin-right: 30px; /* Add space to the right of the image */
+    }
+    .arrow {
+        position: absolute; /* Position arrows relative to the container */
+        top: 50%; /* Align vertically in the middle */
+        transform: translateY(-50%); /* Adjust for vertical alignment */
+        cursor: pointer; /* Change cursor to pointer on hover */
+        font-size: 24px; /* Adjust arrow size */
+        color: #ffffff; /* Arrow color */
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        padding: 10px; /* Padding around arrows */
+        border: none; /* Remove border */
+        outline: none; /* Remove outline */
+        transition: background-color 0.3s; /* Smooth background color transition */
+    }
+    .arrow:hover {
+        background-color: rgba(0, 0, 0, 0.7); /* Darken background on hover */
+    }
+    .arrow.left {
+        left: 10px; /* Position left arrow */
+    }
+    .arrow.right {
+        right: 10px; /* Position right arrow */
+    }
+</style>
+</head>
+<body>
+
+<h2>“Road landscape” 2024</h2>
+
+<div class="container">
+    <img src="file:///C:/Users/maggi/OneDrive/%CE%A5%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CF%84%CE%AE%CF%82/%CF%80%CE%BF%CF%81%CF%84%CF%86%CE%BF%CE%BB%CE%B9%CE%BF/ergo%20gette/%CE%9C%CE%AC%CE%B3%CE%BA%CF%85%20%CE%9C%CE%B1%CE%BA%CF%81%CE%AE.jpg"
+         alt="Placeholder Image" id="artwork" />
+    <div class="art-description">
+        <h4>Mixed media, 109 x 77 cm</h4>
+        <h4>A two-dimensional artwork based on the "Road Trilogy" by Wim Wenders</h4>
+        <p>The Journey and the Road, for the films of Wim Wenders are two fundamental elements that work
+        as a metaphor for self-discovery and isolation as well as human connection. In his iconography, a
+        feeling of continuous movement-change unfolds, together with the idea that life is a procedure of
+        searching and adjustment. The two-dimensional environment of the road landscape allows an
+        introduction to the subconscious. The human figures are swinging in and out of reality at the same
+        time. They try to understand why everything changes and nothing stays the same.</p>
+    </div>
+    <button class="arrow left" onclick="changeImage(-1)">&#10094;</button>
+    <button class="arrow right" onclick="changeImage(1)">&#10095;</button>
+</div>
+
+<hr>
