@@ -6,9 +6,9 @@
     <title>Schubert & Radio FM at 19:20</title>
     <style>
         body {
-            font-family: 'BPtypewrite',  Arial, sans-serif;
+            font-family: 'BPtypewrite', Arial, sans-serif;
             background-color: #3f5a36;
-            color: #ffb38a;  
+            color: #ffb38a;
             margin: 0;
             padding: 0;
         }
@@ -16,35 +16,56 @@
             border: 2px solid #fff;
             padding: 10px;
             margin: 10px;
-        } 
-		.content {
+        }
+        .content {
             display: flex;
             align-items: center;
-        } 
+        }
+        h4 {
+            color: #000000;
+            margin-top: 20px; /* Add space above h4 */
+        }
+        h2, h1 {
+            color: #ffb38a;
+        }
+        img {
+            max-width: 100%; /* Ensure images don't exceed their container */
+            height: auto;
+            margin-left: auto; /* Pushes image to the right */
+			margin-right: 100px;
+        }
     </style>
 </head>
 <body>
     <div class="frame">
-        <h1>Schubert & Radio FM at 19:20</h1>
-		<div class="content">
-		    <audio controls>
+        <h1>Schubert & Radio FM</h1>
+        <h2>at 19:20</h2>
+        <div class="content">
+            <audio controls>
                 <source src="Shubert & Ράδιο Fm.mp3">
-               </audio>
-	</div>
-        <p>
-            A man shouting !warning! - the melodies of Schubert getting scratched on a vinyl</p>
-			<div class="art-description">
-        <h4>An experimental recording</h4>
-        <p>This recording was made with two audio sources: a radio receiver and a record player 
-		both connected to an audio mixer. The receiver is tunned and changing volume constantly, 
-		following the a score written for radio. The user of the record player.</p>
-				<div class="frame">
-        <h1>Exploring Sortwaves at 23:51</h1>
-		<div class="content">
-		    <audio controls>
-                <source src="Exploring sortwaves.m4a">
-               </audio>
+            </audio>
+            <img src="mixergif.gif" alt="Placeholder Image" style="width: 250px; height: auto;"/>
+        </div>
+        <p>A man shouting !warning! - the melodies of Schubert getting scratched on a vinyl</p>
+        <div class="art-description">
+            <h4>An experimental recording</h4>
+            <p><h4>This recording was made with two audio sources: a radio receiver and a record player both connected to an audio mixer. 
+				The receiver is tuned and changing volume constantly, following a score written for radio. The user of the record player 
+				keeps changing and swinging the record, creating different textures to accompany the radio receiver.</h4></p>
+            <img src="mixer.jpg" alt="Placeholder Image" style="width: 200px; height: auto;"/>
+        </div>
     </div>
+    <div class="frame">
+        <h1>Exploring Shortwaves</h1>
+        <h2>at 23:51</h2>
+        <div class="content">
+            <audio controls>
+                <source src="Exploring sortwaves.m4a">
+				</audio>
+				<img src="sw.jpg" alt="Placeholder Image" style="width: 200px; height: auto; margin-right: 800px;"/>
+        </div>
+        <p><h4>Changing frequencies late at night</h4></p>
     </div>
 </body>
 </html>
+
