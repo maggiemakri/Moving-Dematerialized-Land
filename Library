@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artwork's Library</title>
+  <style>
+    body {
+      font-family: 'OCR A', Arial, sans-serif;
+      background-color: #5f720f; /* Background color set to green */
+      color: #000000; /* Text color set to black */
+    }
+    h2 {
+      text-decoration: underline; /* Underline style for the h2 element */
+      color: #ffb38a; /* Text color set to orange-red */
+    }
+	h4 {
+      text-decoration: underline; /* Underline style for the h2 element */
+      color: #000000; /* Text color set to orange-red */
+    }
+    .product-link {
+      color: #ffb38a; /* Link color set to orange-red */
+    }
+    .product-link:hover {
+      color: #ffffff; /* Link color on hover set to white */
+    }
+    .categorization {
+      color: #ffffff; /* Text color for categorization set to white */
+    }
+    .badge {
+      background-color: #ffb38a; /* Background color for badge set to orange-red */
+      color: #ffffff; /* Text color for badge set to white */
+    }
+    .highlighted-badge {
+      background-color: #ff4500; /* Background color for highlighted badge set to orange */
+    }
+    /* Style for list items (bullets) */
+    ul {
+      color: #000000; /* Text color for list items set to black */
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <h2>Library</h2>
+  </center>
+  <ul>
+    <li>
+      <a href="/catalog/category/2-periodicals"><h4>Digital<h4/></a>
+    </li>
+    <li>
+      <a href="/catalog/category/3-editions"><h4>Photography<h4/></a>
+    </li>
+    <li>
+      <a href="/catalog/category/7-ephemera"><h4>Paintings<h4/></a>
+    </li>
+    <li>
+      <a href="/catalog/category/6-postcards"><h4>Monotypes<h4/></a>
+    </li>
+    <li>
+      <a href="/catalog/category/5-posters"><h4>Sketches<h4/></a>
+    </li>
+  </ul>
+
+  <!-- Your product links and images -->
+  <div class="product-thumbnail col-xs-6 col-sm-2 " data-product-id="59654" data-product-sku="215935" data-product-name="Home scene 2">
+    <a class="product-link" data-lightbox-url="/catalog/59654/lightbox" href="/catalog/59654">
+      <div class="product-image product-thumbnail__product-image">
+        <div class="image-wrapper">
+          <div class="image-inner product-thumbnail__image-inner">
+            <img src="file:///C:/Users/maggi/Downloads/20240111_112613%20(1).jpg" alt="home scene 2" style="max-width: 400px; height: auto;">
+          </div>
+        </div>
+      </div>
+      <div class="product-text">
+        <div class="title">
+          Home scene 2
+        </div>
+        <span class="categorization">
+          oil monotype
+          <br>
+          21x29 cm
+        </span>
+        <br>
+        <span class="badge badge-orange_red badge-type--free-digital-download highlighted-badge">details here</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- Add more product links and images as needed -->
+
+</body>
+</html>
+
