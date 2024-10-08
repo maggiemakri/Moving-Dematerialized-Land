@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Alafroiskiotos Project</title>
+<link rel="stylesheet" href="styles.css">
 <style>
 body {
   font-family: 'OCR A', Arial;
@@ -12,13 +13,37 @@ body {
 a:link, a:visited {
   color: #ffffff; /* Link color */
 }
+
+.content {
+  text-align: left; /* Align content to the left */
+}
+
+.next-link {
+  text-align: right; /* Align only the "Next" link and image to the right */
+}
+
+.next-link img {
+  vertical-align: middle; /* Align image vertically with the text */
+  max-width: 5%; /* Ensure the image doesn't exceed its container */
+  margin-right: 10px; /* Adjust margin to move the image closer to the link */
+}
+
+.next-link a {
+  display: inline-block; /* Display link as a block to allow for padding */
+  text-decoration: none; /* Remove underline from the link */
+  color: #ffffff; /* Adjust text color */
+}
+
 </style>
 </head>
 <body>
 
 <h2>An introduction to the <u>Alafroiskiotos Project</u></h2>
 <h4>and how it came to be</h4>
-<a href="cens03.html"><h3 style="text-align: right;">Next</h3></a>
+<div class="next-link">
+  <img src="hand2.jpg" alt="Next Icon">
+  <a href="next-page.html">Next</a>
+</div>
 
 <center><img src="Alafroiskiotos.jpg" style="width: 700px; height: auto;"/><br></center>
 
