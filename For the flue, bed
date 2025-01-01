@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For the flue, Bed</title>
+<style>
+    body {
+        font-family: 'OCR A', Arial, sans-serif; /* Specify fallback fonts */
+        background-color: #857b71;
+        color: #000000;
+        text-align: center; /* Center-align content */
+    }
+    h2, p {
+        font-family: 'OCR A', Arial, sans-serif; /* Specify fallback fonts */
+    }
+    h4 {
+        color: #000000;
+        margin-top: 20px; /* Add space above h2 */
+    }
+    h3 {
+        color: #ffb38a;
+    }
+    .container {
+        position: relative; /* Relative positioning for arrow buttons */
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center-align flex items horizontally */
+        align-items: center; /* Center-align flex items vertically */
+        margin-top: 20px; /* Add space above the container */
+    }
+    .art-description {
+        max-width: 50%; /* Limit text width */
+        margin-left: 20px; /* Add space between image and text */
+        text-align: justify; /* Justify-align the text */
+    }
+    img {
+        max-width: 35%; /* Limit image width */
+        margin-right: 30px; /* Add space to the right of the image */
+    }
+    
+</style>
+</head>
+<body>
+
+<h2>For the flue, bed 2023</h2>
+
+<div class="container">
+    <img src="For the flue, bed.jpg"
+         alt="Placeholder Image" id="artwork" />
+    <div class="art-description">
+        <h3>Monotype, 70 x 50 cm</h3>
+        <h4>From the monotype series</h4>
+        <p>This is a monotype with oil, acrylic paint, collage and oil pastel inspired by a chapter of the book 
+		“Motorcycle Diaries” by Ernesto Che Guevara.</p><br/>
+         <p><h5>Notes: The artwork is named after a chapter from the book. In it, Ernesto and Alberto made a stop because of the first one got ill..</h5></p>
+    </div>
+    
+
+</body>
+</html><div class="clearfix"></div>
+    </div><!--postclass-->
+    <footer>
+         </footer>
+  </article>
+</div>
+			</div><!-- /.row-->
+		</div><!-- /.content -->
+	</div><!-- /.wrap -->
+	<footer id="containerfooter" class="footerclass" itemscope itemtype="https://schema.org/WPFooter">
+  <div class="container">
+  	<div class="row">
+  								        						            </div>
+        <div class="footercredits clearfix">
+    		
+    		        	<p>&copy; 2024 Maggie Makri</p>
+    	</div>
+
+  </div>
+
+</footer>
+</body>
+</html>
