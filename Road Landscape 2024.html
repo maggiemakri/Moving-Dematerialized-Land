@@ -5,16 +5,16 @@
 <title>Road Landscape</title>
 <style>
     body {
-        font-family: 'BPtypewrite', Arial, sans-serif; /* Specify fallback fonts */
+        font-family: 'OCR A', Arial, sans-serif; /* Specify fallback fonts */
         background-color: #857b71;
         color: #000000;
         text-align: center; /* Center-align content */
     }
     h2, h4, p {
-        font-family: 'BPtypewrite', Arial, sans-serif; /* Specify fallback fonts */
+        font-family: 'OCR A', Arial, sans-serif; /* Specify fallback fonts */
     }
     h2 {
-        color: #ffffff;
+        color: #000000;
         margin-top: 20px; /* Add space above h2 */
     }
     h4 {
@@ -53,7 +53,7 @@
         background-color: rgba(0, 0, 0, 0.7); /* Darken background on hover */
     }
     .arrow.left {
-        left: 10px; /* Position left arrow */
+        left: 90px; /* Position left arrow */
     }
     .arrow.right {
         right: 10px; /* Position right arrow */
@@ -65,7 +65,7 @@
 <h2>“Road landscape” 2024</h2>
 
 <div class="container">
-    <img src="rd1.jpg"
+    <img src="file:///C:/Users/maggi/OneDrive/Υπολογιστής/πορτφολιο/εργα/Μάγκυ%20Μακρή.jpg"
          alt="Placeholder Image" id="artwork" />
     <div class="art-description">
         <h4>Mixed media, 109 x 77 cm</h4>
@@ -78,7 +78,7 @@
         time. They try to understand why everything changes and nothing stays the same.</p>
     </div>
     <button class="arrow left" onclick="changeImage(-1)">&#10094;</button>
-    <button class="arrow right" onclick="changeImage(1)">&#10095;</button>
+    <button class="arrow right" onclick="changeImage(2)">&#10095;</button>
 </div>
 
 <hr>
@@ -87,8 +87,8 @@
     // JavaScript function to change the image
     function changeImage(step) {
         const images = [
-            "rd1.jpg",
-            "rd2.jpg", // Replace with actual path to second image
+            "file:///C:/Users/maggi/OneDrive/Υπολογιστής/πορτφολιο/εργα/Μάγκυ%20Μακρή%20(2)%20(1).jpg",
+            "file:///C:/Users/maggi/OneDrive/Υπολογιστής/πορτφολιο/εργα/Μάγκυ%20Μακρή.jpg", // Replace with actual path to second image
              ];
         const artwork = document.getElementById('artwork');
         let currentIndex = images.indexOf(artwork.src);
